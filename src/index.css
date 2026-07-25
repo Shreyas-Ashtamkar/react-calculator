@@ -1,5 +1,18 @@
 @import "../styles/globals.css";
 
+@font-face {
+    font-family: 'Seven Segment';
+    src: url('./assets/SevenSegmentRegular.woff2') format('woff2'),
+        url('./assets/SevenSegmentRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.result {
+  font-family: "Seven Segment";
+}
+
 @layer base {
   :root {
     @apply font-sans;
